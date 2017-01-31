@@ -23,7 +23,7 @@ externalLink: false
 
 
 
-Rolotext Landing Page - [Website][1].  A minimal, responsive web page for connecting with users and collecting data.
+[Rolotext Landing Page][1] -  A minimal, responsive web page for connecting with users and collecting data.
 
 
 
@@ -32,7 +32,13 @@ Rolotext Landing Page - [Website][1].  A minimal, responsive web page for connec
 What's inside?
 
 - React
-- Ruby on Rails
+- Rails API
+- HTML
+- CSS
+- Javascript
+-	Webpack
+- Heroku Hosting
+- AWS (Cloudfront, Route 53)
 
 
 [See it here][1]

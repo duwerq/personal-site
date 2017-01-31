@@ -8,7 +8,6 @@ tag:
 - software developer
 - first time
 blog: true
-star: true
 author: matthewmarks
 description: The journey into software
 ---

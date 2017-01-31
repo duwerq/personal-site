@@ -8,7 +8,6 @@ tag:
 - react-native
 - ruby on rails
 blog: true
-star: true
 author: matthewmarks
 description: Upload Image from React-Native to Rails API
 ---

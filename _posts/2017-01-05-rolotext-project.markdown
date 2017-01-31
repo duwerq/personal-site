@@ -24,7 +24,7 @@ externalLink: false
 
 
 {: .project-description}
-Rolotext IOS App - [Landing Page][1].  A textable business card built with React-Native.
+[Rolotext IOS App][1] -  A textable business card built with React-Native.
 
 
 
@@ -34,8 +34,11 @@ What's inside?
 
 - React-Native
 - Ruby on Rails
+- Rails API
 - Objective-C 2
 - Redux
+- Amazon S3
+- Javascript
 
 
 [Download it here](http://sergiokopplin.github.io/indigo/)

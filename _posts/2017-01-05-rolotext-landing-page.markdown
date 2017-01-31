@@ -1,7 +1,7 @@
 ---
 title: "Rolotext Landing Page"
 layout: post
-date: 2016-01-23 22:10
+date: 2016-11-10 22:10
 tag:
 - react
 - responsive web page

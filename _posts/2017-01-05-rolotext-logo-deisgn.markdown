@@ -1,7 +1,7 @@
 ---
 title: "Rolotext Logo"
 layout: post
-date: 2016-01-23 22:10
+date: 2016-11-23 22:10
 tag:
 - logo
 - design

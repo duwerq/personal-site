@@ -1,12 +1,13 @@
 ---
 title: "Rolotext IOS App"
 layout: post
-date: 2016-01-23 22:10
+date: 2016-12-18 22:10
 tag:
 - ruby on rails
 - react-native
 - objective-c 2
 - redux
+- ios
 image: /assets/images/rolotext-logo-text.png
 headerImage: true
 projects: true

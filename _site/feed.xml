@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-01-12T14:57:43-06:00</updated><id>http://localhost:4000//</id><title type="html">Matthew Marks</title><subtitle>A blog about technology and stuff related</subtitle><entry><title type="html">Upload Image from React-Native to Rails API</title><link href="http://localhost:4000/upload-image-to-rails/" rel="alternate" type="text/html" title="Upload Image from React-Native to Rails API" /><published>2016-02-24T22:44:00-06:00</published><updated>2016-02-24T22:44:00-06:00</updated><id>http://localhost:4000/upload-image-to-rails</id><content type="html" xml:base="http://localhost:4000/upload-image-to-rails/">&lt;p&gt;** &lt;em&gt;The intent of this tutorial is to show how to pick an image inside React-Native, take the base64 encoded data, upload it to a rails server, decode the image and then upload the image to Amazon S3.&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-01-31T10:57:33-06:00</updated><id>http://localhost:4000//</id><title type="html">Matthew Marks</title><subtitle>A blog about technology and stuff related</subtitle><entry><title type="html">Rolotext IOS App</title><link href="http://localhost:4000/rolotext-project/" rel="alternate" type="text/html" title="Rolotext IOS App" /><published>2016-12-18T22:10:00-06:00</published><updated>2016-12-18T22:10:00-06:00</updated><id>http://localhost:4000/rolotext-project</id><content type="html" xml:base="http://localhost:4000/rolotext-project/">&lt;p class=&quot;center-image&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/screen-shot-2.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+&lt;figcaption class=&quot;caption&quot;&gt;Screen shot inside app&lt;/figcaption&gt;
+
+&lt;p class=&quot;project-description&quot;&gt;&lt;a href=&quot;http://www.rolotext.io&quot;&gt;Rolotext IOS App&lt;/a&gt; -  A textable business card built with React-Native.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;What’s inside?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;React-Native&lt;/li&gt;
+  &lt;li&gt;Ruby on Rails&lt;/li&gt;
+  &lt;li&gt;Rails API&lt;/li&gt;
+  &lt;li&gt;Objective-C 2&lt;/li&gt;
+  &lt;li&gt;Redux&lt;/li&gt;
+  &lt;li&gt;Amazon S3&lt;/li&gt;
+  &lt;li&gt;Javascript&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://sergiokopplin.github.io/indigo/&quot;&gt;Download it here&lt;/a&gt;&lt;/p&gt;</content><author><name>matthewmarks</name></author><category term="ruby on rails" /><category term="react-native" /><category term="objective-c 2" /><category term="redux" /><category term="ios" /><summary type="html">Screen shot inside app</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/rolotext-logo-text.png" /></entry><entry><title type="html">Upload Image from React-Native to Rails API</title><link href="http://localhost:4000/upload-image-to-rails/" rel="alternate" type="text/html" title="Upload Image from React-Native to Rails API" /><published>2016-12-17T22:44:00-06:00</published><updated>2016-12-17T22:44:00-06:00</updated><id>http://localhost:4000/upload-image-to-rails</id><content type="html" xml:base="http://localhost:4000/upload-image-to-rails/">&lt;p&gt;** &lt;em&gt;The intent of this tutorial is to show how to pick an image inside React-Native, take the base64 encoded data, upload it to a rails server, decode the image and then upload the image to Amazon S3.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;We’ll start with what collecting the User’s chosen image.  First we’ll be installing react-native-image-picker (https://github.com/marcshilling/react-native-image-picker) . Follow their installation directions and then declare the module inside your app:&lt;/p&gt;
 
@@ -115,7 +134,10 @@
 
 &lt;p&gt;is to add a unique a filename for each image.  If left the way it is, each new image will have the same name as the one before it and when it gets uploaded to Amazon S3 in the same bucket, it will continue to overwrite the previous image instead of adding to a collection of images.  This is a small detail but can save you a little bit of frustration.&lt;/p&gt;
 
-&lt;p&gt;Now if I’m being honest, most of this tutorial is really someone else’s instructions and me connecting the dots with a bit of insight.  That being said though, I hope you find some use from it and if you have any questions or comments, they’re always welcome.&lt;/p&gt;</content><author><name>matthewmarks</name></author><category term="react-native" /><category term="ruby on rails" /><summary type="html">** The intent of this tutorial is to show how to pick an image inside React-Native, take the base64 encoded data, upload it to a rails server, decode the image and then upload the image to Amazon S3.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/markdown.jpg" /></entry><entry><title type="html">How Did I Get Here?</title><link href="http://localhost:4000/how-did-i-get-here/" rel="alternate" type="text/html" title="How Did I Get Here?" /><published>2016-02-24T22:44:00-06:00</published><updated>2016-02-24T22:44:00-06:00</updated><id>http://localhost:4000/how-did-i-get-here</id><content type="html" xml:base="http://localhost:4000/how-did-i-get-here/">&lt;p&gt;&lt;strong&gt;Not that long ago,&lt;/strong&gt; I set out on a journey intent on breaking into software development.  A few years back I decided to quit the restaurant industry, questioning why I was still working at jobs I didn’t have passion for.  So I left and in the first time in 10 years I really started to ask myself what I wanted.  I always thought I had ideas worth pursuing but I’d never been able to fully see a big project through.&lt;/p&gt;
+&lt;p&gt;Now if I’m being honest, most of this tutorial is really someone else’s instructions and me connecting the dots with a bit of insight.  That being said though, I hope you find some use from it and if you have any questions or comments, they’re always welcome.&lt;/p&gt;</content><author><name>matthewmarks</name></author><category term="react-native" /><category term="ruby on rails" /><summary type="html">** The intent of this tutorial is to show how to pick an image inside React-Native, take the base64 encoded data, upload it to a rails server, decode the image and then upload the image to Amazon S3.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/markdown.jpg" /></entry><entry><title type="html">Rolotext Logo</title><link href="http://localhost:4000/rolotext-logo-deisgn/" rel="alternate" type="text/html" title="Rolotext Logo" /><published>2016-11-23T22:10:00-06:00</published><updated>2016-11-23T22:10:00-06:00</updated><id>http://localhost:4000/rolotext-logo-deisgn</id><content type="html" xml:base="http://localhost:4000/rolotext-logo-deisgn/">&lt;p class=&quot;center-image&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/images/rolotext-logo.svg&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+&lt;figcaption class=&quot;caption&quot;&gt;Rolotext Logo&lt;/figcaption&gt;
+
+&lt;p&gt;Rolotext Logo -  An effective, clear communication of a textable business card in a two color scheme.&lt;/p&gt;</content><author><name>matthewmarks</name></author><category term="logo" /><category term="design" /><category term="adobe illustrator" /><summary type="html">Rolotext Logo</summary></entry><entry><title type="html">How Did I Get Here?</title><link href="http://localhost:4000/how-did-i-get-here/" rel="alternate" type="text/html" title="How Did I Get Here?" /><published>2016-11-14T22:44:00-06:00</published><updated>2016-11-14T22:44:00-06:00</updated><id>http://localhost:4000/how-did-i-get-here</id><content type="html" xml:base="http://localhost:4000/how-did-i-get-here/">&lt;p&gt;&lt;strong&gt;Not that long ago,&lt;/strong&gt; I set out on a journey intent on breaking into software development.  A few years back I decided to quit the restaurant industry, questioning why I was still working at jobs I didn’t have passion for.  So I left and in the first time in 10 years I really started to ask myself what I wanted.  I always thought I had ideas worth pursuing but I’d never been able to fully see a big project through.&lt;/p&gt;
 
 &lt;p&gt;So here I was, not knowing where to go but absolutely certain that I needed something different in my life.  I  had a few buddies who were in software development but never gave it a serious thought.  My only experience with writing code was in a highschool class that dealt with basic html.  I knew nothing about it but  in my new hell bent state of accomplishing something, I started researching how to build an app business.  I read books ranging from app design to “Building an IOS Application Business For Dummies”.  I wanted to build an app but paying someone was wayyy out of my budget.&lt;/p&gt;
 
@@ -150,29 +172,10 @@
 
 &lt;p&gt;Now here I am, with paid work under my belt, a project being beta tested (Check it out here) and ready to step into software full-time.  It was a long, difficult journey but hands down the most satisfying one I’ve ever embarked on.  I recommend it anyone who’s ever considered taking the plunge.&lt;/p&gt;
 
-&lt;p&gt;On a final note, I wanna finish with saying thank you to everyone at Stackoverflow (Y’all the real mvp’s) and a big special thanks to my brother Isaah.  I wouldn’t be where I am today with out ya.  &lt;strong&gt;Now let’s do work.&lt;/strong&gt;&lt;/p&gt;</content><author><name>matthewmarks</name></author><category term="software developer" /><category term="first time" /><summary type="html">Not that long ago, I set out on a journey intent on breaking into software development.  A few years back I decided to quit the restaurant industry, questioning why I was still working at jobs I didn’t have passion for.  So I left and in the first time in 10 years I really started to ask myself what I wanted.  I always thought I had ideas worth pursuing but I’d never been able to fully see a big project through.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/markdown.jpg" /></entry><entry><title type="html">Rolotext IOS App</title><link href="http://localhost:4000/rolotext-project/" rel="alternate" type="text/html" title="Rolotext IOS App" /><published>2016-01-23T22:10:00-06:00</published><updated>2016-01-23T22:10:00-06:00</updated><id>http://localhost:4000/rolotext-project</id><content type="html" xml:base="http://localhost:4000/rolotext-project/">&lt;p class=&quot;center-image&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/screen-shot-2.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
-&lt;figcaption class=&quot;caption&quot;&gt;Screen shot inside app&lt;/figcaption&gt;
-
-&lt;p class=&quot;project-description&quot;&gt;Rolotext IOS App - &lt;a href=&quot;http://www.rolotext.io&quot;&gt;Landing Page&lt;/a&gt;.  A textable business card built with React-Native.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;What’s inside?&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;React-Native&lt;/li&gt;
-  &lt;li&gt;Ruby on Rails&lt;/li&gt;
-  &lt;li&gt;Objective-C 2&lt;/li&gt;
-  &lt;li&gt;Redux&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://sergiokopplin.github.io/indigo/&quot;&gt;Download it here&lt;/a&gt;&lt;/p&gt;</content><author><name>matthewmarks</name></author><category term="ruby on rails" /><category term="react-native" /><category term="objective-c 2" /><category term="redux" /><summary type="html">Screen shot inside app</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/rolotext-logo-text.png" /></entry><entry><title type="html">Rolotext Logo</title><link href="http://localhost:4000/rolotext-logo-deisgn/" rel="alternate" type="text/html" title="Rolotext Logo" /><published>2016-01-23T22:10:00-06:00</published><updated>2016-01-23T22:10:00-06:00</updated><id>http://localhost:4000/rolotext-logo-deisgn</id><content type="html" xml:base="http://localhost:4000/rolotext-logo-deisgn/">&lt;p class=&quot;center-image&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/images/rolotext-logo.svg&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
-&lt;figcaption class=&quot;caption&quot;&gt;Rolotext Logo&lt;/figcaption&gt;
-
-&lt;p&gt;Rolotext Logo -  An effective, clear communication of a textable business card in a two color scheme.&lt;/p&gt;</content><author><name>matthewmarks</name></author><category term="logo" /><category term="design" /><category term="adobe illustrator" /><summary type="html">Rolotext Logo</summary></entry><entry><title type="html">Rolotext Landing Page</title><link href="http://localhost:4000/rolotext-landing-page/" rel="alternate" type="text/html" title="Rolotext Landing Page" /><published>2016-01-23T22:10:00-06:00</published><updated>2016-01-23T22:10:00-06:00</updated><id>http://localhost:4000/rolotext-landing-page</id><content type="html" xml:base="http://localhost:4000/rolotext-landing-page/">&lt;p class=&quot;center-image&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/landing-page-screenshot-2.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;On a final note, I wanna finish with saying thank you to everyone at Stackoverflow (Y’all the real mvp’s) and a big special thanks to my brother Isaah.  I wouldn’t be where I am today with out ya.  &lt;strong&gt;Now let’s do work.&lt;/strong&gt;&lt;/p&gt;</content><author><name>matthewmarks</name></author><category term="software developer" /><category term="first time" /><summary type="html">Not that long ago, I set out on a journey intent on breaking into software development.  A few years back I decided to quit the restaurant industry, questioning why I was still working at jobs I didn’t have passion for.  So I left and in the first time in 10 years I really started to ask myself what I wanted.  I always thought I had ideas worth pursuing but I’d never been able to fully see a big project through.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/markdown.jpg" /></entry><entry><title type="html">Rolotext Landing Page</title><link href="http://localhost:4000/rolotext-landing-page/" rel="alternate" type="text/html" title="Rolotext Landing Page" /><published>2016-11-10T22:10:00-06:00</published><updated>2016-11-10T22:10:00-06:00</updated><id>http://localhost:4000/rolotext-landing-page</id><content type="html" xml:base="http://localhost:4000/rolotext-landing-page/">&lt;p class=&quot;center-image&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/landing-page-screenshot-2.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
 &lt;figcaption class=&quot;caption&quot;&gt;Screen shot of Rolotext Landing Page&lt;/figcaption&gt;
 
-&lt;p&gt;Rolotext Landing Page - &lt;a href=&quot;http://www.rolotext.io&quot;&gt;Website&lt;/a&gt;.  A minimal, responsive web page for connecting with users and collecting data.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.rolotext.io&quot;&gt;Rolotext Landing Page&lt;/a&gt; -  A minimal, responsive web page for connecting with users and collecting data.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -180,7 +183,13 @@
 
 &lt;ul&gt;
   &lt;li&gt;React&lt;/li&gt;
-  &lt;li&gt;Ruby on Rails&lt;/li&gt;
+  &lt;li&gt;Rails API&lt;/li&gt;
+  &lt;li&gt;HTML&lt;/li&gt;
+  &lt;li&gt;CSS&lt;/li&gt;
+  &lt;li&gt;Javascript&lt;/li&gt;
+  &lt;li&gt;Webpack&lt;/li&gt;
+  &lt;li&gt;Heroku Hosting&lt;/li&gt;
+  &lt;li&gt;AWS (Cloudfront, Route 53)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.rolotext.io&quot;&gt;See it here&lt;/a&gt;&lt;/p&gt;</content><author><name>matthewmarks</name></author><category term="react" /><category term="responsive web page" /><category term="mobile" /><summary type="html">Screen shot of Rolotext Landing Page</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/rolotext-logo-text.png" /></entry></feed>

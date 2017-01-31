@@ -42,6 +42,6 @@ What's inside?
 - Javascript
 
 
-[Download it here](http://sergiokopplin.github.io/indigo/)
+[Download it here](https://itunes.apple.com/us/app/rolotext/id1198445464?ls=1&mt=8)
 
-[1]: http://www.rolotext.io
+[1]: https://itunes.apple.com/us/app/rolotext/id1198445464?ls=1&mt=8

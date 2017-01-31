@@ -49,6 +49,6 @@ Now here I am, with paid work under my belt, a project being beta tested [(Check
 
 On a final note, I wanna finish with saying thank you to everyone at Stackoverflow (Y'all the real MVPs) and a big special thanks to my helping friend.  I wouldn’t be where I am today with out ya.  **Now let’s do work.**
 
-[1]: http://www.rolotext.io
-[2]: http://localhost:4000/upload-image-to-rails/
+[1]: https://itunes.apple.com/us/app/rolotext/id1198445464?ls=1&mt=8
+[2]: http://matthewmarks.me/upload-image-to-rails/
 [3]: https://www.openchair.io/
